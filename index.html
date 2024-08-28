@@ -1,0 +1,103 @@
+<html>
+    <head><title>Online Fee Payment </title>
+        <meta charset="utf-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+        <link href="./resources/css/vendor/mainstyle.css" rel="stylesheet">
+        <link href="./resources/css/vendor/all.css" rel="stylesheet" type="text/css">
+        <link href="./resources/css/vendor/customstyle.css" rel="stylesheet">
+        <link href='./resources/Image/college_icon.png' type='Image/x-icon' rel='icon'></link>
+        <script src="./resources/js/vendor/jquery.min.js"></script>
+        <script>
+            function funPrint() {
+                $("#cmdPrint").hide();
+                window.print();
+            }
+        </script>
+    </head>
+    <body>
+
+        <div class="container mt-4">   
+            
+                <form id="frmOnlineResponse" name="frmOnlineResponse" method=post autocomplete='off'> 
+                    <div class="card">
+                        <div class="row mb-1 mt-3">  
+                            <div class="col-md-3"  align="center">
+                                 
+                                <img src="./resources/Image/1ERPcollege_logo.jpg" width="240px" height="90px;"  alt="SRM Haryana"/>
+                                
+                            </div>
+                            <div class="col-md-6">
+                                 
+                                <font style="font-weight: bold; font-size: 18pt;">SRM UNIVERSITY, DELHI-NCR, SONEPAT (HARYANA)</font><br>
+                                <font style="font-size: 9pt;">(Established under Haryana Private Universities Act 2006 as amended by act 8 of 2013)</font><br>
+                                <font style="font-size: 10pt;">Plot No.39, Rajiv Gandhi Education City, PS.Rai, Sonepat  Haryana 131029 </font><br>
+                                <font style="font-size: 10pt;">Phone :-  0130-2203700, 701    Website  :- www.srmuniversity.ac.in</font>
+
+                                
+                            </div>   
+                            <div class="col-md-3">
+                                  
+                            </div> 
+                        </div> 
+
+                        <div class="card-header bg-custom text-white"> 
+                            <div class="col-md-12 text-center">
+                                PAYMENT STATUS
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <table width="100%"  cellpadding="5" cellspacing="1" class="table table-borderless mb-0"> 
+                                    <tr class="border-bottom">
+                                        <td>Online Receipt No.</td>
+                                        <td>410381</td>
+                                    </tr>
+                                    <tr class="border-bottom">
+                                        <td>Transaction Date</td>
+                                        <td>14-08-2024</td>
+                                    </tr>
+                                    <tr class="border-bottom">
+                                        <td width="25%">Register No.</td>
+                                        <td>10323210008    </td>
+                                    </tr>
+                                    <tr class="border-bottom">
+                                        <td width="20%">Admission No.</td>
+                                        <td>40387</td>
+                                    </tr>
+                                    <tr class="border-bottom">
+                                        <td>Name of the student</td>
+                                        <td>SHOURYA KASHYAP</td>
+                                    </tr>
+                                    <tr class="border-bottom">
+                                        <td>Course</td>
+                                        <td>B.Tech.-Computer Science and Engineering</td>
+                                    </tr>
+                                    <tr class="border-bottom">
+                                        <td>Institution</td>
+                                        <td>Faculty of Engineering and Technology</td>
+                                    </tr>
+                                    <tr class="border-bottom">
+                                        <td>Receipt Amount</td>
+                                        <td>49500.00</td>
+                                    </tr>
+                                    <tr class="border-bottom">
+                                        <td>Status</td>
+                                        <td>Payment Approved</td>
+                                    </tr>
+                                </table>   
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" align="center">                           
+                                <button type="button" class="btn btn-custom rounded-pill lift" id="cmdPrint"  onclick='funPrint()'> 
+                                    <i class="fa fa-floppy-o mr-1" aria-hidden="true"></i>Print</button> 
+                            </div>
+                        </div> 
+                    </div> 
+                </form>
+            
+        </div>
+    </body>
+</html>
